@@ -1,0 +1,11 @@
+/* Subtle zebra stripes for UI Toolkit editor lists (Hierarchy etc.) over the #141414 dark theme.
+   Applied by EditorZebraRows.cs after the built-in theme, which hard-codes rgb(63, 63, 63) here. */
+.unity-collection-view__item--alternative-background {
+    background-color: #1c1c1c;
+}
+
+/* The rule above outranks the theme's same-specificity selection rule, so restore the
+   unfocused selection color; hover and focused selection use more specific theme rules. */
+.unity-collection-view__item--selected {
+    background-color: rgb(77, 77, 77);
+}
