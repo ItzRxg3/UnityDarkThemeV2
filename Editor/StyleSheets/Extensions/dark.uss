@@ -1,11 +1,3 @@
-:root {
-    --unity-colors-play_mode-background: #000000 !important;
-    --unity-colors-gameview-background: #000000 !important;
-    --unity-colors-default-background: #000000 !important;
-}
-* {
-    --unity-colors-play_mode-background: #000000;
-}
 .dockHeader,
 .AppToolbar,
 .SceneTopBarBg,
@@ -15,8 +7,10 @@
 #WhiteBackground,
 .scrollview,
 .ProjectBrowserIconAreaBg,
+.ProjectBrowserTopBarBg,
+.ProjectBrowserBottomBarBg,
+.sceneTab,
 .PreBackground,
-.dragtab-label,
 .Toolbar,
 .toolbarbutton,
 .ToolbarPopup,
@@ -26,27 +20,15 @@
 .IN-BigTitle,
 .IN-Footer,
 .PreToolbar,
-.ProjectBrowserTopBarBg,
 .TextField,
 .ObjectField,
 .MiniPopup,
-.ProjectBrowserBottomBarBg
 .EntryBackEven,
 .overlay-toolbar__top,
 .unity-overlay-drop-zone,
 .overlay-toolbar-area.unity-overlay-container-horizontal,
 .unity-overlay-container,
-.overlay-container__spacer,
-.GameViewBackground,
-.unity-game-view__background,
-.unity-game-view,
-#GameView,
-.GameView,
-.game-view-background,
-.unity-gameview-display,
-.unity-camera-preview,
-.RenderTexture
+.overlay-container__spacer
 {
-     
-     background-color: #000 !important;
+    background-color: #141414 !important;
 }

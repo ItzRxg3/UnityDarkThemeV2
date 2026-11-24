@@ -3,7 +3,7 @@
 Originally made by [@haywirephoenix](https://github.com/haywirephoenix/UnityBlackTheme/tree/main)  
 Modified by [@ItzRxg3](https://github.com/ItzRxg3/)  
 
-Drop it in your Assets folder and Unity Editor will instantly turn black.  
+Drop it in your Assets folder and Unity Editor will instantly turn near-black (`#141414`).  
 Note: To turn the menus and top bar black, you can also install [UnityEditorDarkMode](https://github.com/0x7c13/UnityEditor-DarkMode)
 
 ## Subtle Hierarchy stripes (Unity 6 UI Toolkit Hierarchy)
